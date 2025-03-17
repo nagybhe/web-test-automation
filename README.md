@@ -57,7 +57,7 @@ README.md               # Arquivo de documentação com informações sobre o pr
 2. **Executar os testes**: Para rodar os testes com o Playwright, execute o comando:
 
     ```bash
-    npx playwright test
+    npx playwright test web/
     ```
 
 3. **Ver os relatórios de execução**: Após a execução dos testes, um relatório será gerado, incluindo capturas de tela e logs detalhados. Você pode encontrar aqui:
