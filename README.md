@@ -60,7 +60,10 @@ README.md               # Arquivo de documentação com informações sobre o pr
     npx playwright test
     ```
 
-3. **Ver os relatórios de execução**: Após a execução dos testes, um relatório será gerado, incluindo capturas de tela e logs detalhados.
+3. **Ver os relatórios de execução**: Após a execução dos testes, um relatório será gerado, incluindo capturas de tela e logs detalhados. Você pode encontrar aqui:
+    ```bash
+    http://localhost:9323/
+    ```
 
 # Monitoramento de Qualidade de API
 
@@ -94,9 +97,9 @@ npm install
 
 Executar os testes:
 Para rodar os testes da API com Jest, execute o comando:
-
+```bash
 npm test
-
+```
 
 Ver os resultados dos testes:
 Após a execução, o Jest gerará os resultados no terminal, mostrando se os testes passaram ou falharam, além de detalhes sobre os erros. Por exemplo:
